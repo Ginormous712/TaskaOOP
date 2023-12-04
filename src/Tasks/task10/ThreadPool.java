@@ -1,4 +1,4 @@
-package Tasks.task2;
+package Tasks.task10;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,72 +1,23 @@
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+package Tasks.task1;
 
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+public class Server {
+    public static void main(String[] args) {
+        try (ServerSocket serverSocket = new ServerSocket(12345)) {
+            System.out.println("Server is waiting for client...");
 
-import Tasks.task1.*;
+            while (true) {
+                Socket socket = serverSocket.accept();
+                System.out.println("Client connected: " + socket.getInetAddress());
 
-public class ClientServerTest {
-    private static final int PORT = 12345;
-    private static ServerSocket serverSocket;
-
-    @BeforeAll
-    public static void setupServer() throws IOException {
-        serverSocket = new ServerSocket(PORT);
-        new Thread(() -> {
-            try {
-                while (true) {
-                    Socket clientSocket = serverSocket.accept();
-                    handleClient(clientSocket);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
+                handleClient(socket);
             }
-        }).start();
-    }
-
-    @AfterAll
-    public static void closeServer() throws IOException {
-        serverSocket.close();
-    }
-
-    @Test
-    public void testClientServerInteraction() {
-        // Run the server in a separate thread
-        Thread serverThread = new Thread(() -> {
-            try (Socket clientSocket = new Socket("localhost", PORT)) {
-                // Create and serialize object
-                SerializableObject serializableObject = new SerializableObject("Test message");
-
-                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
-                objectOutputStream.writeObject(serializableObject);
-                objectOutputStream.flush();
-
-                // Send the serialized object to the server
-                OutputStream outputStream = clientSocket.getOutputStream();
-                outputStream.write(byteArrayOutputStream.toByteArray());
-                outputStream.flush();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        });
-
-        serverThread.start();
-
-        // Wait for a while to ensure the server has enough time to process the client's request
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
-
-        // Check if the server received the object correctly
-        assertEquals("Test message", getServerOutput());
     }
 
     private static void handleClient(Socket socket) {
@@ -84,16 +35,5 @@ public class ClientServerTest {
             e.printStackTrace();
         }
     }
-
-    private static String getServerOutput() {
-        try {
-            InputStream inputStream = serverSocket.accept().getInputStream();
-            byte[] buffer = new byte[1024];
-            int bytesRead = inputStream.read(buffer);
-            return new String(buffer, 0, bytesRead);
-        } catch (IOException e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
 }
+

@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="baf0a690-81da-4fbb-8688-d595ae38d995" name="Changes" comment="" />
+    <list default="true" id="baf0a690-81da-4fbb-8688-d595ae38d995" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskaOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TaskaOOP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task1/SerializableObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task1/SerializableObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task1/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task10/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task10/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task2/TridiagonalSystemSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task2/TridiagonalSystemSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task3/ThreadHierarchyPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task3/ThreadHierarchyPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task4/SampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task4/SampleClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task5/SkipList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task5/SkipList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task6/MichaelScottQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task6/MichaelScottQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task7/CyclicBarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task7/CyclicBarrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task8/ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task8/ReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/task9/Phaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/task9/Phaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/ClassInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ClassInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/CyclicBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/MichaelScottQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/MichaelScottQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/PhaserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/PhaserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/ReentrantLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ReentrantLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/SerializableObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/SerializableObjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/SkipListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/SkipListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/ThreadHierarchyPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ThreadHierarchyPrinterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TridiagonalSystemSolverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TridiagonalSystemSolverTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,14 +57,121 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "D:/University/UniversityLabs/University/semester_5/OOP/TaskaOOP/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ThreadHierarchyPrinterTest">
+    <configuration name="ClassInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.ClassInfoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomPhaserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CustomPhaserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhaserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.PhaserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhaserTest.testAwaitAdvance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.PhaserTest" />
+      <option name="METHOD_NAME" value="testAwaitAdvance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadHierarchyPrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.ThreadHierarchyPrinterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ThreadHierarchyPrinterTest" />
+        <item itemvalue="JUnit.PhaserTest" />
+        <item itemvalue="JUnit.CustomPhaserTest" />
+        <item itemvalue="JUnit.ClassInfoTest" />
+        <item itemvalue="JUnit.PhaserTest.testAwaitAdvance" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,9 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701675043349</updated>
-      <workItem from="1701675044366" duration="1000" />
+      <workItem from="1701675044366" duration="13469000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -48,6 +194,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/SkipListTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
